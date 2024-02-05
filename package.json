@@ -10,7 +10,6 @@
     "debug": "ndb server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url /js",
     "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
-    
   },
   "author": "Elli TB",
   "license": "ISC",
@@ -54,6 +53,6 @@
     "prettier": "^1.17.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": "^10"
   }
 }
