@@ -26,6 +26,7 @@ if (loginForm) {
     const email = document.getElementById('email-login').value;
     const password = document.getElementById('password-login').value;
     login(email, password);
+    return false;
   });
 }
 
