@@ -54,7 +54,7 @@ module.exports = class Email {
     // 2) Define email options
     const mailOptions = {
       // fOR PRODUCTION process.env.SENDGRID_EMAIL_FROM
-      from: SEND_EMAIL_FROM,
+      from: process.env.SENDGRID_EMAIL_FROM,
       to: this.to,
       subject,
       html,
